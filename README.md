@@ -2,11 +2,11 @@
 
 **Workflow**: 
 
-- New Alert Created → POST /api/alerts
-- Backend Processes → CorrelationService.correlate()
-- Database Save → AlertRepository.save()
-- Kafka Event → alert.created (future)
-- WebSocket Broadcast → /topic/alerts
-- Frontend Receives → useWebSocket hook
-- Context Update → AlertContext.setAlerts()
-- UI Re-render → Components update
+- New Alert Created → eg. POST /api/alerts
+- Backend Processes → eg CorrelationService.correlate()
+- Database Save → eg AlertRepository.save()
+- Kafka Event → eg alert.created (future)
+- WebSocket Broadcast → eg /topic/alerts
+- Frontend Receives → eg useWebSocket hook
+- Context Update → eg AlertContext.setAlerts()
+- UI Re-render → eg Components update
