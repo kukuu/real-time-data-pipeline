@@ -9,4 +9,4 @@
 - WebSocket Broadcast → eg /topic/alerts
 - Frontend Receives → eg useWebSocket hook
 - Context Update → eg AlertContext.setAlerts()
-- UI Re-render → eg Components update
+- UI Re-render → eg Components update 
