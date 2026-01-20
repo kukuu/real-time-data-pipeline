@@ -10,3 +10,4 @@
 - Frontend Receives → eg useWebSocket hook
 - Context Update → eg AlertContext.setAlerts()
 - UI Re-render → eg Components update 
+ 
